@@ -1,7 +1,8 @@
 #  Trivia app - Rensistech
-It is Qyuiz App using opentdb.
+It is Quiz App using opentdb.
 https://opentdb.com/api_config.php
 
+I have Create Round in Quick(Timed Mode). that is divided with 3 rounds and each question has specific points.
 
 # External libraries used 
 
@@ -15,6 +16,11 @@ https://github.com/intuit/sdp
 
 3. Volly (Use for Api Request)
 https://developer.android.com/training/volley
+
+
+4. Firebase (Use for crashlytics analytics)
+https://firebase.google.com/
+
 
 
 
