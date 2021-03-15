@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:background="@drawable/roundedshape"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_20sdp">
+
+
+    <RelativeLayout
+        android:id="@+id/titllay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:text="Swap a question"
+            android:textColor="@color/orange"
+
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/tune1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+
+        android:layout_marginRight="@dimen/_8sdp"
+        android:src="@drawable/swap"
+
+        />
+
+
+    <TextView
+        android:id="@+id/correct_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="In order to swap a question you have to watch a short reward video"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+    <RelativeLayout
+        android:id="@+id/watch_video_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+
+        android:background="@drawable/button_bg">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:id="@+id/icon1"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/video_icon" />
+
+        <TextView
+android:layout_marginRight="@dimen/_20sdp"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon1"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="WATCH A VIDEO"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/swap_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center|center_vertical"
+
+        android:text="Swap_10x"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+    <TextView
+        android:id="@+id/okbtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center|center_vertical"
+
+        android:text="CANCEL"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+
+</LinearLayout>

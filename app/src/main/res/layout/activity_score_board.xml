@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mian_bg_blue"
+    tools:context=".ScoreBoardActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg_des"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:weightSum="15">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+android:id="@+id/back_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:src="@drawable/backbtn" />
+
+                <TextView
+                    android:id="@+id/id_15"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_orange"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:gravity="center"
+                    android:text="$ 1,000,000"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_toRightOf="@id/id_15"
+                    android:src="@drawable/star" />
+
+                <ImageView
+                    android:id="@+id/star4"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_toRightOf="@id/star3"
+                    android:src="@drawable/star" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_toRightOf="@id/star4"
+                    android:src="@drawable/star" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/id_14"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 500,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_13"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 250,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_12"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 125,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_11"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 64,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:id="@+id/id_10"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_orange"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:gravity="center"
+                    android:text="$ 32,000"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_toRightOf="@id/id_10"
+                    android:src="@drawable/star" />
+
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_toRightOf="@id/star1"
+                    android:src="@drawable/star" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/id_9"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 16,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_8"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 8,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_7"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 4,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_6"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 2,000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1">
+
+                <TextView
+
+                    android:id="@+id/id_5"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_orange"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:gravity="center"
+                    android:text="$ 1,000"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_toRightOf="@id/id_5"
+                    android:src="@drawable/star" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/id_4"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 500"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_3"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 300"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_2"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 200"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/id_1"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/mony_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="$ 100"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

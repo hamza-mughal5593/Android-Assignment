@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mian_bg_blue"
+    android:layout_height="match_parent"
+    tools:context=".QustionTypeActivity">
+    <RelativeLayout
+android:layout_above="@+id/ad_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_des"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_weight="0.4">
+
+                <ImageView
+                    android:id="@+id/backbtn"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/backbtn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Create Game"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:visibility="invisible"
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:src="@drawable/profile" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:layout_weight="0.5"
+                android:background="@drawable/chit"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="Select Question Type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:layout_weight="2.3"
+                android:paddingTop="@dimen/_30sdp"
+                android:paddingBottom="@dimen/_30sdp"
+                android:src="@drawable/question_min" />
+
+            <Button
+                android:id="@+id/multiple_btn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_weight="0.6"
+                android:background="@drawable/button_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Multiple choice"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <Button
+                android:id="@+id/boolean_btn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_weight="0.6"
+                android:background="@drawable/button_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="True/False"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

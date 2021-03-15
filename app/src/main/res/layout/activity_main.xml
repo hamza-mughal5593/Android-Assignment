@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mian_bg_blue"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_above="@+id/ad_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_des"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <TextView
+                android:gravity="center"
+                android:text="Quiz App"
+                android:textSize="@dimen/_48sdp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/yellow"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/game" />
+
+            <Button
+                android:id="@+id/newgamebtn"
+                android:fontFamily="@font/montserrat_semibold"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/button_bg"
+                android:text="New GAME"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+
+
+            <Button
+                android:fontFamily="@font/montserrat_semibold"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/button_bg"
+                android:text="SCOREBOARD"
+                android:id="@+id/histry_btn"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <Button
+                android:id="@+id/exit_btn"
+                android:fontFamily="@font/montserrat_semibold"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/button_bg"
+                android:text="EXIT"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+            <RelativeLayout
+
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55">
+                <ImageView
+                    android:src="@drawable/menu_btn"
+                    android:id="@+id/menu_btn"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"/>
+
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

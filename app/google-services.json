@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "824757949544",
+    "firebase_url": "https://quiz-game-c1b83.firebaseio.com",
+    "project_id": "quiz-game-c1b83",
+    "storage_bucket": "quiz-game-c1b83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824757949544:android:ef68c5150f99e2a5bfd7dd",
+        "android_client_info": {
+          "package_name": "com.renesis.tech.androidassignment.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824757949544-bhcp5sar713ul5nde7amq00thduv55qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2cyNVznFwh-kRKZkUCBqKr8RaxcYgz4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824757949544-bhcp5sar713ul5nde7amq00thduv55qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_5sdp"
+
+    android:layout_marginRight="@dimen/_5sdp"
+    android:background="@drawable/roundedshape"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_20sdp">
+
+
+    <LinearLayout
+        android:id="@+id/titllay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_30sdp"
+
+            android:layout_marginRight="5dp"
+            android:src="@drawable/alert" />
+
+        <TextView
+
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_60sdp"
+            android:gravity="left|center_vertical"
+            android:text="Do you Want to Exit?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+
+
+            android:layout_weight="0.9"
+            android:background="@drawable/dialog_btn_bg_outline"
+            android:gravity="center|center_vertical"
+            android:text="No"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:fontFamily="@font/montserrat_semibold"
+            android:id="@+id/yes"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_59sdp"
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_weight="1.1"
+            android:background="@drawable/button_bg"
+            android:gravity="center|center_vertical"
+            android:text="Yes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

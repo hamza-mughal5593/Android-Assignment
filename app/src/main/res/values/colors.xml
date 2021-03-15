@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#ffffff</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#f9c53a</color>
+    <color name="border_color">#D4BDE2</color>
+    <color name="border_blue">#cd61ff</color>
+    <color name="bg_blue">#a546d0</color>
+    <color name="green">#0bbf29</color>
+    <color name="red_alart">#ed1b24</color>
+    <color name="orange">#ff8e0b</color>
+    <color name="money_color">#ffa300 </color>
+    <color name="red">#ff0000</color>
+    <color name="blue_btn_color">#7b23bc</color>
+
+    <color name="color1">#2c9af1</color>
+    <color name="color2">#fe2224</color>
+    <color name="color3">#fec601</color>
+    <color name="color4">#15cc0f</color>
+    <color name="color5">#0e395b</color>
+    <color name="color6">#ff974e</color>
+    <color name="color7">#e45200</color>
+    <color name="color8">#05f3cf</color>
+    <color name="color9">#8a0a09</color>
+    <color name="color10">#020202</color>
+    <color name="color11">#775549</color>
+    <color name="color12">#a6a6a6</color>
+    <color name="color13">#10580f</color>
+    <color name="color14">#607d8b</color>
+    <color name="color15">#2f71d5</color>
+    <color name="color16">#e10ab6</color>
+    <color name="color17">#5f26c8</color>
+    <color name="color18">#a3620a</color>
+    <color name="color19">#8781bd</color>
+    <color name="color20">#93c14f</color>
+    <color name="color21">#f26d7d</color>
+    <color name="color22">#1e00ff</color>
+    <color name="color23">#f68e56</color>
+    <color name="color24">#7a0026</color>
+
+
+
+    <color name="ad_btn_color">#f26522</color>
+
+    <color name="ad_color">#f9c53a</color>
+
+
+
+</resources>

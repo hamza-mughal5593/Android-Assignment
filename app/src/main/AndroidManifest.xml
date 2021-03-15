@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.renesis.tech.androidassignment.quizgame">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher_quiz"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:protectionLevel="signature"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_quiz"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="stateHidden|adjustResize">
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.NormalType.GameWinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.NormalType.GameOutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.CategoryType.CategoryLevelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.CategoryType.CategoryListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.CategoryType.CategoryQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.ScoreBoardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.GameOverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.NormalType.ArcadeModeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.QustionTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.NormalType.NormalGameTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.GameModeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.SelectNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.renesis.tech.androidassignment.quizgame.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <provider
+            android:name="com.renesis.tech.androidassignment.quizgame.Utils.GenericFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+
+
+    </application>
+
+</manifest>
